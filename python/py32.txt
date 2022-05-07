@@ -1,0 +1,12 @@
+# number = int(input("enter any number : "))
+
+# for i in range(number):
+#     i = i**2
+#     print(i)
+
+
+number = int(input("enter any number : "))
+
+for i in range(number+1):
+    i = i**3
+    print(i)

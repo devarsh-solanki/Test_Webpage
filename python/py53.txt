@@ -1,0 +1,24 @@
+# how to add data in dictionary
+
+user_info = {
+    'name' : 'devarsh',
+    'age' : 18,
+    'fav_movie' : ['harry potter', 'stranger things'],
+    'fav_tunes' : ['jay hanuman', 'khich meri photo'],
+}
+user_info['fav_song'] = ['dil bechara','soraj duba hain yaro']
+print(user_info)
+
+# pop method in dictionary
+
+popped_items = user_info.pop('fav_movie')
+print(popped_items)
+print(type(popped_items))
+print(user_info)
+
+# popitem method
+
+popped_item = user_info.popitem()
+print(popped_item)
+print(type(popped_item))
+print(user_info)

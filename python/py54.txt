@@ -1,0 +1,42 @@
+# 1. update method
+
+user_info = {
+    'name' : 'devarsh',
+    'age' : 18,
+    'fav_movie' : ['harry potter', 'stranger things'],
+    'fav_tunes' : ['jay hanuman', 'khich meri photo'],
+}
+more_info = {'hobbies' : ['drawing','cricket', 'music'],'height' : '18'}
+user_info.update(more_info)
+print(user_info)
+
+# 2. fromkeys method
+
+# data_info = dict.fromkeys(['name','age'], 'unknown')
+# print(data_info)
+
+data_info = dict.fromkeys(range(1,11), 'unknown')
+print(data_info)
+
+# 3. get method(useful)
+
+d = {'name' : 'devarsh','age' : '24'}
+print(d.get('name'))
+
+if d.get('names'):
+    print('present')
+else:
+    print('not present')        # better output
+
+# 4. copy method
+
+# d1 = d.copy()
+d1 = d
+print(d1.popitem())
+print(d) 
+print(d1 is d)
+
+# 5. clear method
+
+d.clear()
+print(d)

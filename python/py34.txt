@@ -1,0 +1,31 @@
+def number_1(a,b):
+     if a > b:
+         return a
+     else:
+         return b
+# a = int(input("enter first number"))
+# b = int(input("enter second number"))
+# bigger = number_1(a,b)
+# print(f"{bigger} is greater")
+
+
+# def greatest(a,b,c):
+#     if a>b and a>c:
+#         return a
+#     elif b>a and b>c:
+#         return b
+#     else:
+#         return c
+
+# n1 = int(input("enter first number"))
+# n2 = int(input("enter second number"))
+# n3 = int(input("enter third number"))
+# bigger = greatest(n1,n2,n3)
+# print(f"{bigger} is greatest")
+
+
+def new_greatest(a,b,c):
+    bigger = number_1(a,b)             # return number_1(number_1(a,b),c)     
+    return number_1(bigger,c)
+print(new_greatest(100,20,30))
+

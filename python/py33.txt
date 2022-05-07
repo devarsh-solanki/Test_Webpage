@@ -1,0 +1,35 @@
+Command=""
+def func(n):
+    return n
+print(func("hey, first select the car!!"))
+started = False
+while True:
+    command = input(">").lower()
+    if command == "car":
+        if started:
+            print("hey, your car is already ready! ") 
+        else:
+            started = True
+            print("car is ready!!!")
+    elif command == "start":
+        if not started:
+            print("hey, your car is already started! ")
+        else:
+            started = False
+            print("your car is start!!!")
+    elif command == "stop":
+        if started:
+            print("hey, your car is already stopped! ")
+        else:
+            started = True
+            print("your car is stop!!!")
+    elif command == "quite":
+        break
+    elif command == "help":
+        print("""
+car- for call the car
+start-for start the car
+stop-for stop the car
+        """)
+    else:
+        print("i don't understand!!!")

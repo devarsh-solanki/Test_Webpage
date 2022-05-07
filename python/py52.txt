@@ -1,0 +1,21 @@
+# in keyword & values method 
+
+user_info = {
+    'name' : 'devarsh',
+    'age' : 18,
+    'fav_movie' : ['harry potter', 'stranger things'],
+    'fav_tunes' : ['jay hanuman', 'khich meri photo'],
+}
+# for i in user_info:
+#     print(i)
+
+# for i in user_info.values():                  # for i in user_info:
+#     print(i)                                  # print(user_info[i])
+
+# items method 
+
+# for i,j in user_info.items():
+#     print(f"key is {i} and {j} is values")
+
+for i in user_info.items():
+    print(i)

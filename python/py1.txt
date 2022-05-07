@@ -1,0 +1,4 @@
+first_name = "devarsh "
+last_name = "solanki"
+full_name = first_name + last_name
+print(full_name)

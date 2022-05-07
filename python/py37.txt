@@ -1,0 +1,61 @@
+# 1. scope
+
+# x = 5
+# def func():
+#     global x
+#     x = 7
+#     return x
+
+# print(x)
+# print(func())
+# print(x)
+
+
+# 2. list
+
+word = ["name", 'raja', "two"]
+print(word[:2]) 
+
+number = [1, 2, 3, 4, 5, 6,]
+print(number[::-1])
+
+mixed = ["mohit", 'bala', 1, 2, 3, 10, 2.3, 2.5, None]
+print(mixed)
+
+word[0] = "tata"
+print(word)
+
+
+
+# 3. append method:
+# data store in list
+
+fruits = ['mango',"banana",'apple']
+fruits.append("grapes")
+print(fruits)
+
+fruit = []
+fruit.append('mango')
+fruit.append("banana")
+print(fruit)
+
+# new....*output*
+# 4. insert method
+
+fruit1 = ['banana',"orange"]
+fruit1.insert(1, "mango")
+print(fruit1)
+
+fruit2 = ['grapes', 'apple']
+# fruit3 = fruit1 + fruit2
+# print(fruit3)
+
+# 5. extend method
+
+fruit1.extend(fruit2)
+print(fruit1)
+       # output - ['banana', 'mango', 'orange', 'grapes', 'apple']
+
+fruit1.append(fruit2)
+print(fruit1)
+       # orange - ['banana', 'mango', 'orange', 'grapes', 'apple', ['grapes', 'apple']]

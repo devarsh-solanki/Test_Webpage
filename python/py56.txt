@@ -1,0 +1,9 @@
+# exersice 2
+
+def func(s):
+    count = {}
+    for i in s:
+        count[i] = s.count(i)
+    return count
+
+print(func('rajkumar'))

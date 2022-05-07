@@ -1,0 +1,7 @@
+# replaace and find mathod
+name = "she is beautiful and she is good dancer"
+# print(name.replace("is","was",2))
+print(name.find("is",5))
+# pos_1 = name.find("is")
+# pos_2 = name.find("is",pos_1 + 1)
+# print(pos_2)

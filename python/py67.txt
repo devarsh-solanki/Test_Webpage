@@ -1,0 +1,10 @@
+# exersice (1) ---> *args
+
+def power_function(num,*args):
+    if args:
+        return [i**num for i in args]
+    else:
+        return 'you did not pass any args'
+        
+list_numbers = [1,2,3,4,5]
+print(power_function(3,*list_numbers))

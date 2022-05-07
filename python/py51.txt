@@ -1,0 +1,30 @@
+# how to create dictionary 
+
+user_info = {'name' : 'devlo Escobar','age' : 18}
+print(user_info)
+print(type(user_info))
+
+# socond method to create dictionary
+
+user_info2 = dict(name = 'Parth', age = 21)
+print(user_info2)
+print(type(user_info2))
+
+# dictionaries store to anything
+
+user = {
+    'name' : 'devlo Escobar',
+    'age' : 18,
+    'fav_movie' : ['harry potter', 'stranger things'],
+    'fav_tunes' : ['jay hanuman', 'khich meri photo'],
+}
+print(user)
+
+# how to store data to empty dictionary
+
+user_1 = {}
+user_1['name'] = 'Parth'
+user_1['age'] = 24
+user_1['fav_movie'] = ['Deadpool', 'Peli vaato ep 66']
+user_1['fav_tunes'] = ['kuch toh bata zindagi']
+print(user_1)

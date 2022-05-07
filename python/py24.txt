@@ -1,0 +1,6 @@
+num = input("enter a number")
+total = 0
+i = 1
+for i in range(len(num)):
+    total = total + int(num[i])
+print(total)

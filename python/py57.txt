@@ -1,0 +1,16 @@
+# exersice 3
+
+dict_1 = {}
+ 
+name = input('enter your name :')
+age = input('enter your age :')
+fav_movie = input('enter your movie by comma separated :').split(',')
+fav_game = input('enter your game by comma separated :').split(',')
+
+dict_1['name'] = name
+dict_1['age'] = age
+dict_1['fav_movie'] = fav_movie
+dict_1['fav_game'] = fav_game
+
+for key,value in dict_1.items():
+    print(f'{key} : {value}')    

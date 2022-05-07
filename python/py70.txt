@@ -1,0 +1,8 @@
+def point_test(l,**kwargs):
+    if kwargs.get('reverse_str') == True:
+        return [i[::-1].title() for i in l]
+    else:
+        return [i.title() for i in l]
+
+list_name = ['devarsh','solanki']
+print(point_test(list_name, reverse_str = True))

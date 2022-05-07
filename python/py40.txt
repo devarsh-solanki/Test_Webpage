@@ -1,0 +1,33 @@
+# 1. split methon with list
+
+name_age = 'devarsh, 24'.split(",")
+print(name_age)
+
+# 2. join method
+
+name1_age = ['devarsh', '24']
+print(','.join(name_age))
+
+# 3. list vs string
+
+str1 = "devarsh"
+print(str1.title())    # immutable
+
+fruits = ['apple', 'banana', 'grapes', 'mango', 'pear']
+fruits.append('orange')
+print(fruits)          # mutable
+
+# 4. looping in list
+# (1) fore loop
+
+fruit = ['apple', 'banana', 'grapes', 'mango', 'pear']
+for j in fruit:
+    print(j)
+
+#(2) while loop
+
+fruits2 = ['apple', 'banana', 'grapes', 'mango', 'pear']
+i = 0
+while i < len(fruits2):
+    print(fruits2[i])
+    i += 1

@@ -1,0 +1,4 @@
+name = "    deva   rsh    "
+print(name)
+print(name.strip())
+print(name.replace(" ",""))

@@ -1,0 +1,15 @@
+# def is_palindrome(name):
+#     if name.lower() == name[::-1].lower():
+#         return True
+#     else:
+#         return False
+
+# print(is_palindrome("madAM"))
+
+ 
+def is_palindrome(word):
+    return word.lower() == word[::-1].lower()     # return word == word[::-1]
+
+print(is_palindrome("madam"))
+print(is_palindrome("maDAM"))                     # error
+

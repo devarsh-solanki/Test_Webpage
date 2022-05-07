@@ -1,0 +1,42 @@
+# tuples
+
+number = (1,2,3,4,5,6,7)
+print(type(number))
+
+# for loop in tuples
+
+for i in number:
+    print(i)
+
+# 2.
+
+word = ("monday",)
+print(type(word))
+
+# 3.
+
+point = "koi mil gya", "raja hindustani", "harry potter"
+point1,point2,point3 = (point)
+print(point2)
+
+
+# 4.
+
+def point_car(num1,num2):
+    add = num1 + num2
+    multiply = num1 * num2
+    return add,multiply
+
+print(point_car(2,3))
+print(type(point_car(2,3)))
+
+# 5.
+
+words = (1,2,3,4,['m s dhoni','power point','dilwale'])
+words[4].insert(1,"happy new year")
+words[4].pop(2)
+print(words)
+
+restart = words[4].pop(2)
+print(restart)
+

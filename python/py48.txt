@@ -1,0 +1,12 @@
+# 6. exersice
+
+def comman_num(l1,l2):
+    comman = []
+    for i in l1:
+        if i in l2:
+            comman.append(i)
+    return comman
+
+n1 = list(range(1,11))
+n2 = list(range(5,16))
+print(comman_num(n1,n2))

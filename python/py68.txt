@@ -1,0 +1,8 @@
+# kwargs {keyword argument}
+
+def dict_func(**kwargs):
+    print(type(kwargs))
+    for k,v in kwargs.items():
+        print(f'{k}:{v}')
+
+dict_func(name = 'devarsh',age = 18)

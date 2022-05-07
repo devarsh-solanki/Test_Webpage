@@ -1,0 +1,10 @@
+num_1 = int(input("enter first number : "))
+num_2 = int(input("enter second number : "))
+
+if num_1%7 == 0 and num_2%7 == 0:
+    for i in range(num_1,num_2+1,7):
+        print(i)
+elif num_1%7 == 0:
+    print(f"{num_1} is devide by 7 but {num_2} is not devide by 7 ")
+else: 
+     print(f"{num_2} is devide by 7 but {num_1} is not devide by 7 ")

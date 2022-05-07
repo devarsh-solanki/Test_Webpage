@@ -1,0 +1,7 @@
+# if else statment
+age = int(input("enter your age :"))
+if age >= 14:
+    print("you are above 14")
+else:
+    print("ypu can not play the game")    
+ 

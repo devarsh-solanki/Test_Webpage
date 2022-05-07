@@ -1,0 +1,43 @@
+@import url('https://fonts.googleapis.com/css2?family=Titillium+Web&display=swap');
+
+body{
+    font-family: 'Titillium Web', sans-serif;
+}
+
+div#apple p a.banana:link{
+    color: blue;
+}
+
+div#apple p a.banana:visited{
+    color: blue;  
+}
+
+div#apple p a.banana{
+    text-decoration: none;
+}
+
+div#apple p a.banana:hover{
+    color: #9e9e9e;
+}
+
+div#apple p a.banana:active{
+    color: #f8a02d;
+}
+
+div#apple{
+    color: #f8a02d;
+    background-color: #fff;
+    border: 3px solid black;
+    border-radius: 20px;
+    padding: 20px 40px 20px 40px;
+    width: 400px;
+    margin: 40px auto;
+}
+
+div#apple h1.roman{
+    border-bottom: 3px solid gray;
+}
+
+div#apple p{
+    color: black;
+}

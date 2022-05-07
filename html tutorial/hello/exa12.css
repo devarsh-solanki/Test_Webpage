@@ -1,0 +1,57 @@
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@100;200;300;400;500;600;700;900&display=swap');
+
+body{
+    font-family: 'Montserrat', sans-serif;
+}
+
+hr{
+    width: 500px;
+    margin-left: 0px;
+    border: 1px dashed black;
+}
+
+div.apple{
+    box-sizing: border-box;
+    width: 500px;
+    border: 10px solid #365eee;
+    padding: 50px;
+    margin: 20px 0px;
+}
+
+div.banana{
+    width: 500px;
+    border: 10px solid #365eee;
+    padding: 50px;
+}
+
+div h1.pdf{
+    display: inline;
+    color: red;
+    border-bottom: 2px solid black;
+}
+
+div p.harry{
+    color: #898989;
+    font-weight: 700;
+}
+
+div p.potter{
+    color: #898989;
+    font-weight: 900;
+}
+
+div p.harry strong{
+    font-size: 25px;
+}
+
+div p.potter strong{
+    font-size: 25px;
+}
+
+/* p:first-child{
+    color: red;
+} */
+
+/* p:first-of-type{
+    color: red;
+} */

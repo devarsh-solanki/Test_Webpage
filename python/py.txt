@@ -1,0 +1,6 @@
+s1,s2 = input(">").lower().split(",")
+
+def num_2(string,sub_string):
+    str1 = string.count(sub_string)
+    print(str1)
+num_2(s1,s2)

@@ -1,0 +1,27 @@
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@600&display=swap');
+
+body{
+    font-family: 'Montserrat', sans-serif;
+}
+
+div#lorem header.apple h1{
+    background-color: #efefef;
+    padding: 5px 10px 5px 10px;
+    width: 1000px;
+    margin: 40px auto;
+    text-align: center;
+}
+
+div section article.potter{
+    border: 2px solid black;
+    padding: 5px 10px 5px 10px;
+    width: 1000px;
+    margin: 40px auto;
+}
+
+div section article.banana{
+    border: 2px solid black;
+    padding: 5px 10px 5px 10px;
+    width: 1000px;
+    margin: 40px auto;
+}

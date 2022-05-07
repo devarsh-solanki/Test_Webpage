@@ -1,0 +1,242 @@
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@300;400;500;600;700&display=swap');
+
+body{
+    font-family: 'Montserrat', sans-serif;
+}
+
+.harry{
+    border: 5px solid black;
+    max-width: 1300px;
+    margin: 0px auto;
+    display: flex;
+    /* flex-direction: row; */
+    height: 400px;
+    flex-direction: column;
+    /* flex-direction: column;
+    flex-direction: column-reverse; */
+    flex-wrap: wrap;
+}
+
+.potter{
+    border: 2px dotted red;
+    width: 500px;
+    height: 150px;
+}
+
+.potter1{
+    background-color: lightgoldenrodyellow;
+}
+
+.potter2{
+    background-color: lightpink;
+}
+
+.potter3{
+    background-color: lightskyblue;
+}
+
+.potter4{
+    background-color: lightsalmon;
+}
+
+.harrybaba{
+    border: 5px solid black;
+    max-width: 1300px;
+    margin: 2rem auto;
+    display: flex;
+    height: 500px;
+    flex-wrap: wrap;
+    align-items: flex-start;
+    align-content: space-around;
+    justify-content: space-around;
+}
+
+.potterbaba{
+    border: 2px dotted red;
+    text-align: center;
+    width: 400px;
+    /* flex-grow: 1; */
+}
+
+.potterbaba1{
+    background-color: lightgoldenrodyellow;
+    order: 4;
+}
+
+.potterbaba2{
+    background-color: lightpink;
+    order: 3;
+}
+
+.potterbaba3{
+    background-color: lightskyblue;
+    order: 2;
+}
+
+.potterbaba4{
+    background-color: lightsalmon;
+    order: 1;
+}
+
+.potterbaba5{
+    background-color: rgb(122, 255, 129);
+    order: 0;
+}
+.rocket{
+    background-color: rgba(135, 236, 250, 0.637);
+}
+
+.image{
+    display: block;
+    width: 100%;
+    height: 500px;
+    margin: 1rem auto;
+    position: relative;
+    z-index: -1;
+}
+
+.popat{
+    border: 5px solid blue;
+    max-width: 1200px;
+    margin: 5rem auto;
+    display: flex;
+    flex-wrap: wrap;
+}
+
+.popatlal{
+    flex: 1 400px;   /* (grow,shrink,basis) */
+    text-align: center;
+}
+
+.popatlal1{
+    background-color: lightpink;
+    /* flex-shrink: 1; */
+}
+
+.popatlal2{
+    background-color: lemonchiffon;
+    /* flex-shrink: 2; */
+}
+
+.popatlal3{
+    background-color: lightsalmon;
+    /* flex-shrink: 3; */
+}
+
+.box{
+    height: 200px;
+    width: 200px;
+    background-color: red;
+    animation-name: change-color;
+    animation-duration: 5s;
+    animation-delay: 2s;
+    animation-fill-mode: forwards;
+    animation-iteration-count: 5;
+    margin: 0 auto;
+}
+
+@keyframes change-color{
+    from{
+        background-color: red;
+    }
+    to{
+        background-color: black;
+    }
+}
+
+.box1{
+    height: 5px;
+    width: 10px;
+    background-color: black;
+    animation-name: change-width;
+    animation-duration: 5s;
+    animation-delay: 2s;
+    animation-fill-mode: forwards;
+    animation-iteration-count: 5;
+    margin: 2rem auto;
+}
+
+@keyframes change-width{
+    from{
+        width: 10px;
+        background-color: black;
+    }
+    to{
+        width: 500px;
+        background-color: red;
+    }
+}
+
+.rajkumar{
+    height: 300px;
+}
+
+.box2{
+    height: 50px;
+    width: 50px;
+    border-radius: 50%;
+    background-color: black;
+    animation-name: change-around;
+    animation-duration: 8s;
+    animation-delay: 2s;
+    animation-fill-mode: forwards;
+    animation-iteration-count: 5;
+    margin: 2rem auto;
+    position: relative;
+}
+
+@keyframes change-around{
+    0%{
+        top: 0;
+        left: 0;
+        background-color: black;
+    }
+    16%{
+        top: 0;
+        left: 200px;
+        background-color: red;
+    }
+    32%{
+        top: 200px;
+        left: 200px;
+        background-color: yellow;
+    }
+    48%{
+        top: 200px;
+        left: 0;
+        background-color: blue;
+    }
+    64%{
+        top: 200px;
+        left: -200px;
+        background-color: pink;
+    }
+    80%{
+        top: 0;
+        left: -200px;
+        background-color: orange;
+    }
+    100%{
+        top: 0;
+        left: 0;
+        background-color: greenyellow;
+    }
+}
+
+.go{
+    text-align: center;
+}
+
+.happy{
+    height: 100px;
+    width: 100px;
+    background-color: aqua;
+    margin: 100px auto;
+    transform-origin: 0px 100px;
+    transition: transform 1s ease-in-out;
+}
+
+.happy:hover{
+    transform: rotate(360deg);
+    /* transform: scale(2); */
+}

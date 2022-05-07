@@ -1,0 +1,23 @@
+# 1. generate lists with range functions
+
+numbers = list(range(1, 11))
+print(numbers)
+
+# 2. something more about pop method
+
+print(numbers.pop())                # output - 10
+
+# 3. index method
+
+number = [1, 2, 3, 4, 5, 6, 7, 8, 9, 10, 1, 11, 12, 13, 14, 1]
+print(number.index(1,11))
+
+# 4. pass list to a functions
+
+def negative_list(l):
+    negative = []
+    for i in l:
+        negative.append(-i)
+    return negative
+
+print(negative_list(numbers))

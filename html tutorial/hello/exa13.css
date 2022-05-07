@@ -1,0 +1,118 @@
+p:nth-child(2){
+    color: red;
+}
+
+ul{
+    padding-left: 0px;
+    width: 300px;
+    text-align: center;
+    margin: 0px auto;
+}
+
+ul li:nth-of-type(2n+1){
+    color: #777;
+    background-color: #efefef;
+}
+
+ul li:nth-of-type(2n){
+    color: #444;
+    background-color: lightpink;
+}
+
+div :not(p){
+    color: blueviolet;
+}
+
+div.harry:empty{
+    border: 3px solid red;
+    background-color: aliceblue;
+    height: 100px;
+    width: 100px;
+}
+
+/* :root{
+    background-color: #f8f8f8;
+} */
+
+/* html{
+    background-color: #f8f8f8;
+} */
+
+body{
+    background-color: #fbfbfb;
+}
+
+p.potter::first-letter{
+    font-size: 32px;
+}
+
+::selection{
+    color: white;
+    background-color: black;
+}
+
+p.potter::before{
+    content: 'hello '
+}
+
+p.lully{
+    /* font-size: 96px; */
+    font-size: 12pt;
+    /* iin = 2.54cm */
+    /* 1px = 0.75pt */
+    word-spacing: 5px;
+    letter-spacing: 2px;
+}
+
+div.has p.wait{
+    /* font-size: 62.5%;
+    font-size: 10px; */
+    /* 10px = 62.5% */
+    font-size: 2rem;
+    border: 2px solid blue;
+    width: 50%;
+    background-color: aliceblue;
+    margin: 10px auto;
+    text-align: center;
+}
+
+div.yoga a{
+    display: inline-block;
+    border: 3px solid red;
+    text-align: center;
+    width: 60px;
+    background-color: rgb(236, 214, 214);
+    border-radius: 50px;
+    text-decoration: none;
+    margin: 20px 190px;
+    padding: 5px;
+}
+
+div.yoga a:link{
+    color: black;
+}
+
+div.yoga a:visited{
+    color: blue;
+}
+
+div.yoga a:hover{
+    color: #444;
+    background-color: rgb(240, 228, 227);
+}
+
+div.yoga a:active{
+    color: silver;
+}
+
+h1.baka{
+    font-size: 2em;
+    border: 2em solid #777;
+    padding: 3em;
+}
+
+.popat{
+    font-size: 20px;
+    border: 2em solid #777;
+    padding: 3em;
+}

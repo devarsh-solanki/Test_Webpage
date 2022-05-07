@@ -1,0 +1,9 @@
+wishinng_number = 51
+user_number = int(input("enter a number between 1 to 100 :"))
+if user_number == wishinng_number:
+     print("you win!!!")
+else: 
+     if user_number > wishinng_number:
+        print("too high")
+     else: 
+        print("too low")   

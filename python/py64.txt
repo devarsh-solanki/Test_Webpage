@@ -1,0 +1,15 @@
+# dictionary comprehension
+
+odd_even = {i:('even' if i%2 == 0 else 'odd') for i in range(1,11)}
+print(odd_even)
+
+# set comprehension
+
+numbers = {i**2 for i in range(1,11)}
+print(numbers)
+
+# example (1) # set comprehension
+
+name_student = {'devarsh','vivek','vishant','devang','ronak','chahat'}
+name = {i[0] for i in name_student}
+print(name)

@@ -1,0 +1,42 @@
+# 1. count method in list
+
+fruits = ['apple', 'grapes', 'mango', 'banana', 'banana', 'apple', 'apple', 'orange', 'pear']
+print(fruits.count('apple'))
+
+# 2. sort method
+
+fruits = ['apple', 'grapes', 'mango', 'banana', 'banana', 'apple', 'apple', 'orange', 'pear']
+fruits.sort()
+print(fruits)
+       # output - ['apple', 'apple', 'apple', 'banana', 'banana', 'grapes', 'mango', 'orange', 'pear']
+
+# 3. sorted function
+
+fruits = ['apple', 'grapes', 'mango', 'banana', 'banana', 'apple', 'apple', 'orange', 'pear']
+print(sorted(fruits))
+       # output - ['apple', 'apple', 'apple', 'banana', 'banana', 'grapes', 'mango', 'orange', 'pear']
+  
+# 4. clear method
+
+fruits = ['apple', 'grapes', 'mango', 'banana', 'banana', 'apple', 'apple', 'orange', 'pear']
+fruits.clear()
+print(fruits)
+
+# 5. reverse method
+
+fruits = ['apple', 'grapes', 'mango', 'banana', 'banana', 'apple', 'apple', 'orange', 'pear']
+fruits.reverse()
+print(fruits)
+
+# 6. copy method
+ 
+fruits = ['apple', 'grapes', 'mango', 'banana', 'banana', 'apple', 'apple', 'orange', 'pear']
+fruits_copy = fruits
+print(fruits_copy)
+
+# 7. is and ==
+
+fruits1 = ["mango", "banana", "apple"]
+fruits2 = ["mango", "banana", "apple"]
+print(fruits1 == fruits2)  # output - True
+print(fruits1 is fruits2)  # output - False

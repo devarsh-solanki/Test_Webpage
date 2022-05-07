@@ -1,0 +1,13 @@
+age = int(input("enter your age"))
+if age==0 or age < 0:
+     print("are you crazy ?")
+elif 0<age<=5:
+     print("ticket price : free")
+elif 6<age<=10:
+     print("ticket price : 70")
+elif 11<age<=18:
+     print("ticket price : 120")
+elif 19<age<=50:
+     print("ticket price : 150")
+else:
+     print("ticket price : 100")                         

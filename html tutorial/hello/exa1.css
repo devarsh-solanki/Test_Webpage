@@ -1,0 +1,90 @@
+.royal{
+    color: red;
+}
+
+.men{
+    color: blue;
+}
+
+.toy{
+    background-color: #ddd;
+}
+
+.far{
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+.bot{
+    font-family: 'Teko', sans-serif;
+}
+
+.green{
+    background-color: #eee;
+}
+
+.roman{
+    font-family: 'Montserrat', sans-serif;
+}
+
+.bot{
+    list-style-type: circle;
+}
+
+.pako{
+    background-color: #ddd;
+}
+
+.gh{
+    background-color: cyan;
+}
+
+div{
+    background-color: aliceblue;
+}
+
+div#raja ul.toy li{
+    color: tomato;
+    background-color: teal;
+}
+
+div#raja ul.toy li.name{
+    color: teal;
+    background-color: tomato;
+}
+
+
+
+/* nav.potter h1.logo{
+    font-size: 4rem;
+    font-weight: 600;
+    color: white;
+    float: left;
+    padding-right: 500px;
+    padding:10px;
+    padding-left: 350px;
+    margin-top: 25px;
+}
+
+li a{
+    color: white;
+    text-decoration: none;
+    margin: 0px 10px;
+}
+
+li.a1{
+    margin-right: 200px;
+}
+
+nav.potter ul.apple li{
+    display: inline-block;
+    float: right;
+    font-size: 2rem;
+    margin-top: 40px;
+    padding: 10px;
+}
+
+nav.potter::after{
+    content: "";
+    display: block;
+    clear: both;
+} */

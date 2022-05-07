@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Welcome</title>
+</head>
+<body>
+    <h1>HTML FORM</h1>
+    <form action="./hello/thankyou.html" method="POST">
+        <label for="Username">Username : </label>
+        <input type="text" name="username" id="Username" placeholder="Username" required> <br>  <br>
+
+        <label for="password">Password : </label>
+        <input type="password" name="password" id="password" placeholder="Your Password" required> <br>  <br>
+
+        <label for="email">Email : </label>
+        <input type="email" name="email" id="email" placeholder="Your Email" required> <br>  <br>
+        <p>
+            Select your gender
+        </p>
+    
+        <label for="Male">male</label>
+        <input type="radio" name="gender" id="Male"> <br>  <br>
+        <label for="Female">female</label>
+        <input type="radio" name="gender" id="Female"> <br>  <br>
+        <label for="Other">other</label>
+        <input type="radio" name="gender" id="Other"> <br>  <br>
+
+        <label for="Age Group">Select your age group :</label>
+        <select name="age-group" id="Age Group">
+            <option value="1-20">1-20</option>
+            <option value="20-40">20-40</option>
+            <option value="40-60">40-60</option>
+            <option value="60-80">60-80</option>
+            <option value="80+">80+</option>
+        </select> <br>  <br>
+        <p>Enter your comments...</p>
+        <textarea name="" id="text area" cols="30" rows="10" placeholder="Type Here....."></textarea> <br> <br>
+
+        <label for="date"></label>
+        <input type="date" name="" id="date" required> <br>  <br>
+
+        <input type="submit" value="submit">
+    </form>
+</body>
+</html>

@@ -1,0 +1,4 @@
+name,age = "devarsh\n", " 18"
+print("hello " + name + "yoar age is " + age)
+x=y=z=2
+print(x+y+z)

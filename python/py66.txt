@@ -1,0 +1,35 @@
+# *args for normal perameter
+
+def normal_perameter(num1,num2,*args):
+    multiply = 1
+    print(num1)
+    print(num2)
+    print(args)
+    print(type(args))
+    for i in args:
+        multiply *= i
+    return multiply
+
+print(normal_perameter(1,2,3,4,5))
+
+# ______output______
+
+# $ python py66.txt
+# 1                     # normal perameter
+# 2                     # normal pera***    
+# (3, 4, 5)             # *args
+# <class 'tuple'>
+# 60
+
+# *args for normal perameter
+
+def normal_perameter(*args):
+    multiply = 1
+    print(args)
+    print(type(args))
+    for i in args:
+        multiply *= i
+    return multiply
+
+number_of_list = [2,3,4]
+print(normal_perameter(*number_of_list))

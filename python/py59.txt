@@ -1,0 +1,49 @@
+# ch (9)
+# list comprehension
+
+# example (1)
+
+square = []
+for i in range(1,11):
+    square.append(i**2)
+print(square)
+
+square = [i**2 for i in range(1,11)]
+print(square)
+
+# example (2)
+
+name = ['devarsh','priyansh','vishant','devang','vivek','chahat','ronak']
+new_name = []
+for i in name:
+    new_name.append(i[0])
+print(new_name)
+
+new_name2 = [i[0] for i in name]
+print(new_name2)
+
+# example (3)   ---> [method(1)]
+
+file = ['abc','xyz','tuv','opq']
+new_file = []
+for i in file:
+    new_file.append(i[::-1])
+print(new_file)
+
+new_file2 = [i[::-1] for i in file]
+print(new_file2)
+
+# exercise 1   ---> [method(2)]
+
+def reverse_str(l):
+    reverse = []
+    for i in l:
+        reverse.append(i[::-1])
+    return reverse
+
+print(reverse_str(['abc','xyz','tuv','opq']))
+
+def reverse_str2(l):
+    return [i[::-1] for i in l]
+
+print(reverse_str2(['abc','xyz','tuv','opq']))

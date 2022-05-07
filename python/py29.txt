@@ -1,0 +1,28 @@
+# user define function
+
+def last_char(name):          # def last_char(name):
+    print(name[-1])           # return name[-1]
+
+print(last_char("devarsh"))
+
+
+# def odd_even(number):        
+#     if number%2 == 0:
+#         return "even"     
+#    return "odd"
+
+# print(odd_even(1))
+
+
+# def is_even(number):       
+#     if number%2 == 0:
+#         return True     
+#     return False
+# print(is_even(1))
+
+
+# def is_even(number):       
+#     return number%2 == 0
+
+# print(is_even(10))
+

@@ -1,0 +1,13 @@
+# make flexible function
+
+# *args
+# *operator
+
+def total_number(*args):
+    print(type(args))       # for check the type
+    total = 0
+    for i in args:
+        total += i
+    return total
+
+print(total_number(1,2,3,4,5))

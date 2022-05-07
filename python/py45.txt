@@ -1,0 +1,10 @@
+# 3. exersice
+
+def r_list(l): 
+    element = []
+    for i in l:
+        element.append(i[::-1])
+    return element
+
+word = ['abc', 'xyz', 'mno']
+print(r_list(word))

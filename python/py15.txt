@@ -1,0 +1,7 @@
+# and , or 
+name = 'devarsh'
+age = 17
+if name=='devarsh' or age==18:
+     print("condition true")
+else:
+     print("condition false")

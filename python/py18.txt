@@ -1,0 +1,7 @@
+name,char = input("enter yoar name and char with comma separated :").split(",")
+print(name.strip().lower())
+print(name.strip().lower().count(char.strip().lower()))
+if char in name:
+    print('present')
+else:
+    print('not present')

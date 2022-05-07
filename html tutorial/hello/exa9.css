@@ -1,0 +1,96 @@
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@600&display=swap');
+
+body{
+    font-family: 'Montserrat', sans-serif;
+}
+
+div{
+    background-color: aliceblue;
+}
+
+div h1{
+    color: blue;
+}
+
+input[type = "text"]{
+    color:black;
+}
+
+/* a[href *= "google"]{
+    color: red;
+} */
+
+/* a[href ^= "https"]{
+    color: rgb(83, 139, 69);
+} */
+
+/* a[href $= ".com"]{
+    color: rgb(83, 139, 69);
+} */
+a:link{
+    color: blue;
+}
+
+a:visited{
+    color: black;
+}
+
+a:hover{
+    color: #9e9e9e;
+}
+
+a:active{
+    color: red;
+}
+div#happy{
+    background-color: rgb(216, 226, 226);
+}
+
+input:focus{
+    padding: 5px;
+    outline: none;
+    border: 2px solid rgba(0, 0, 0, 0.74);
+    border-radius: 5px;
+}
+
+/* inline attributes (css)> id selector > class selector > normal attributes */
+
+div#happy ul.loky{
+    list-style: none;
+    padding-right: 40px;
+}
+
+div#happy ul.loky li{
+    color:tomato;
+    background-color: teal;
+}
+
+/* element selector = 0,1,1,3 */
+
+div#happy ul.loky li.fav{
+    color:teal;
+    background-color:tomato;
+}
+
+/* element selector = 0,1,2,3 */
+
+p.near{
+    border: 4px solid red;
+    border-radius: 20px;
+    background-color: papayawhip;
+    text-align: center;
+    /* padding-left: 20px;
+    padding-right: 20px;
+    padding-top: 40px;
+    padding-bottom: 40px; */
+    /* padding:20px 40px ; */
+    /* padding: 20px 40px 60px 80px; */
+    padding: 40px;
+    /* margin: 40px; */
+    width: 200px;
+    margin: 40px auto;
+}
+
+p.near span.motav{
+    border-bottom: 2px solid black;
+}

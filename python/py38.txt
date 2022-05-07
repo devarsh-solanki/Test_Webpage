@@ -1,0 +1,25 @@
+# 1. pop method
+
+fruits = ['apple', 'banana', 'grapes', "orange"]
+fruits.pop(0)
+print(fruits)
+
+# 2. remove method
+
+fruits = ['apple', 'banana', 'grapes', "orange"]
+fruits.remove('banana')
+print(fruits)
+
+# 3. del method
+
+fruits = ['apple', 'banana', 'grapes', "orange"]
+del fruits[2] 
+print(fruits)
+
+# 4. in operater with list
+
+fruits = ['apple', 'banana', 'grapes', "orange"]
+if 'apple' in fruits:
+    print("present")
+else:
+    print("not present")

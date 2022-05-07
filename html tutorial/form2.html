@@ -1,0 +1,78 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        @import url('https://fonts.googleapis.com/css2?family=Montserrat&display=swap');
+
+        body{
+            font-family: 'Montserrat', sans-serif;
+        }
+        #heading1{
+            color: blue;
+        }
+        .roman{
+           background-color: white;
+           color: blue;
+        }
+        .devarsh{
+            background-color: orange;
+        }
+        .bot{
+            background-color: green;
+            color: black;
+        }
+        input:focus{
+            padding: 7px;
+            outline: none;
+            border: 2px solid green;
+        }
+        textarea:focus{
+            padding: 7px;
+            outline: none;
+            border: 2px solid red;
+        }
+    </style>
+<body>
+    <form action="./hello/thankyou.html">
+        <center>
+            <div class="devarsh">
+                <h2 id="heading1">*Sign Up Form*</h2>
+                <input type="text" name="" id="name" placeholder="First Name" required> <br>  <br>
+                <input type="text" name="" id="Lastname" placeholder="Last Name" required> <br> <br>
+                <input type="email" name="" id="email" placeholder="Entrer your email" required> <br>  <br>
+                <input type="password" name="" id="password" placeholder="Password" required> <br>  <br>
+            </div>
+
+            <div class="roman">
+                <p> Select your gender : </p>
+                <label for="male">Male</label>
+                <input type="radio" name="gender" id="male"> <br>  <br>
+                <label for="female">Female</label>
+                <input type="radio" name="gender" id="female"> <br>  <br>
+                <label for="other">Other</label>
+                <input type="radio" name="gender" id="other"> <br>  <br>
+            </div>
+        
+            <div class="bot"><br>
+                <label for="country">Country : </label>
+                <select name="" id="country">
+                    <option value="India">India</option>
+                    <option value="Shrilanka">Shrilanka</option>
+                    <option value="Bhutan">Bhutan</option>
+                </select>
+                <p>
+                    Write about yourself below
+                    </font>
+                </p> <br>
+            
+                <textarea name="" id="" cols="30" rows="10" placeholder="Type here"></textarea> <br> <br>
+                <input type="submit" value="Submit"> <br> <br>
+            </div>
+        </center>
+    </form>
+</body>
+</html>
