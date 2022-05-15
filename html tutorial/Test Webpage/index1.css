@@ -1,0 +1,172 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,300;0,400;1,200;1,300;1,400;1,600&display=swap');
+
+body{
+    font-family: 'Poppins', sans-serif;
+}
+
+*{
+    box-sizing: border-box;
+    padding: 0;
+    margin: 0;
+}
+
+a{
+    text-decoration: none;
+    color: white;
+}
+
+.header{
+    position: relative;
+    min-height: 60vh;
+    background: url(./image/pexels-igor-haritanovich-1687341.jpg);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    color: white;
+}
+
+.container{
+    max-width: 1200px;
+    margin: auto;
+    width: 90%;
+    align-items: center;
+}
+
+.nav{
+    min-height: 8vh;
+    display: flex;
+    justify-content: space-between;
+}
+
+.nav_items{
+    width: 40%;
+    list-style-type: none;
+    display: flex;
+    justify-content: space-around;
+}
+
+.headline{
+    position: absolute;
+    text-align: center;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%,-50%);
+}
+
+.btn{
+    display: inline-block;
+    outline: none;
+    border: none;
+    cursor: pointer;
+}
+
+.btn_headline{
+    padding: 1rem 2rem;
+    font-size: 1rem;
+    border-radius: 1.2em;
+    margin-top: 1rem;
+    font-weight: 600;
+}
+
+.section_todo{
+    margin-top: 5rem;
+    text-align: center;
+}
+
+.form_todo{
+    min-height: 5vh;
+    display: flex;
+    justify-content: space-between;
+    margin-top: 1rem;
+}
+
+.form_todo input{
+    min-height: 100%;
+}
+
+.form_todo input[type="text"]{
+    width: 78%;
+    padding: 0.8rem;
+}
+
+.form_todo input[type="submit"]{
+    width: 20%;
+    color: white;
+    background-color: rgb(21,95,70);
+}
+
+.btn_todo{
+    border-radius: 1em;
+}
+
+.todo_list{
+    text-align: left;
+    font-size: 1.2rem;
+    list-style-type: none;
+}
+
+.todo_list li{
+    padding: 10px;
+    background-color: black;
+    color: white;
+    margin-top: 1rem;
+    font-size: 1.2rem;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.todo_btn{
+    padding: 0.5rem 1rem;
+    border-radius: 0.7rem;
+    font-size: 1rem;
+    font-weight: bold;
+    cursor: pointer;
+}
+
+.section_signup{
+    margin: 5rem auto;
+    text-align: center;
+    background-color: rgb(242, 242, 242);
+    padding-top: 2rem;
+}
+
+.signupForm{
+    max-width: 800px;
+    width: 90%;
+    margin: auto;
+    text-align: left;
+}
+
+.signupForm label{
+    display: block;
+}
+
+.signupForm input{
+    display: block;
+    width: 100%;
+    padding: 0.5rem;
+}
+
+.form_group{
+    margin-top: 1rem;
+}
+
+.form_group span{
+    color: red;
+}
+
+.signupForm textarea{
+    width: 100%;
+    padding: 0.8rem;
+}
+
+.btn_signup{
+    background-color: rgb(21,95,70);
+    padding: 1rem 2rem;
+    color: white;
+    font-weight: 600;
+    display: block;
+    margin: 1rem auto;
+    border-radius: 1em;
+} 

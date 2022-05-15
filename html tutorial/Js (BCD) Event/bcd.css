@@ -1,0 +1,39 @@
+*{
+    box-sizing: border-box;
+    padding: 0;
+    margin: 0;
+}
+
+body{
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+main{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-align: left;
+    height: 100vh;
+}
+
+.box{
+    min-height: 100px;
+    min-width: 100px;
+    padding: 5rem;
+    color: white;
+    font-weight: 700;
+    font-size: 1.5rem;
+    cursor: pointer;
+}
+
+.grandParent{
+    background-color: rgb(0, 221, 255);
+}
+
+.parent{
+    background-color: rgb(0, 68, 255);
+}
+
+.child{
+    background-color: rgb(0, 0, 101);
+}

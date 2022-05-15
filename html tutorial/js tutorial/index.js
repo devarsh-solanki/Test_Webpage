@@ -163,7 +163,7 @@ console.log(bg);
 console.log(array5);
 
 let array6 = [].concat(bg,"item6","item7");
-let array7 = bg.slice(0).concat["item1","item2"];
+let array7 = bg.slice(0).concat(["item1","item2"]);
 console.log(array6);
 console.log(array7);
 
@@ -553,7 +553,9 @@ jkName.forEach(function(user,index){
         // VM230:2 vivek   1
         // VM230:2 vishant   2
         // VM230:2 rajkumar   3
-// map-------------------------------------------------------------------------------------------------
+
+
+// map-----------it will return array--------------------------------------------------
 function jkarta(user){
     return user*user;
 };
@@ -566,7 +568,9 @@ let bhai = jkName.map((user)=>{
 });
 console.log(bhai);
 // output --> ['devarsh', 'vivek', 'vishant', 'rajkumar']
-// filter-------------------------------------------------------------------------------------------------
+
+
+// filter---------check boolean condition and return array--------------------------------------
 let rajaOk = [1,2,3,4,5,6,7,8,9,10];
 let store = rajaOk.filter(function(id){
     return id%2 === 0 ;
@@ -574,12 +578,15 @@ let store = rajaOk.filter(function(id){
 console.log(store);
 // output--> [2, 4, 6, 8, 10]
 
+
 // reduce-------------------------------------------------------------------------------------------------
 let sumOk = rajaOk.reduce((accumulator,currentvalue)=>{
     return accumulator + currentvalue;
 },100); // *note* --> here 100 is initial value of accumulator 
 console.log(sumOk); // output --> 55
-// *************************************************************************************
+
+
+// *****************realistic example*******************************************
 let cart = [
     {product: "mobile" , buy: 1 , price: 18000},
     {product: "laptop" , buy: 1 , price: 60000},
@@ -698,7 +705,9 @@ let arrayTop = [1,2,3,4,5,6,7,8,9,10];
 arrayTop.fill(true,2,5);
 console.log(arrayTop); // output --> [1, 2, true, true, true, 6, 7, 8, 9, 10]
 
-// insert ,delete ,splice-------------------------------------------------------------------------------------
+
+// splice method
+// start,delete,insert-------------------------------------------------------------------------------------
 // *Note* -----> arrJk.splice(index,delete,insert);
 
 let arrJk = ["item1","item2","item3","item4","item5"];
@@ -709,7 +718,11 @@ console.log(arrJk); // output --> ['item1', 'item2', 'item3', 'item4', 'item5']
 arrJk.splice(1,2,"Winner","losser");
 console.log(arrJk); // output --> ['item1', 'Winner', 'losser', 'item4', 'item5']
 
-// sets --> it is iterables--------> use for of loop----------------------------------------------------------
+
+//Iterables ---> example : Array,String
+
+// sets
+//it is iterables--------> jispe hum for of loop laga sake----------------------------------------------------------
 // order is not guaranted
 // no inddex based access
 // no duplicate allowed (unique items only)
@@ -717,8 +730,9 @@ console.log(arrJk); // output --> ['item1', 'Winner', 'losser', 'item4', 'item5'
 let openSet = new Set([1,2,3,4,5,6,7]);
 openSet.add(2);
 openSet.add(2);
-console.log(openSet); // output --> 1,2,3,4,5,6,7
+console.log(openSet); // output --> [1,2,3,4,5,6,7]
 
+// it will return boolean value
 if(openSet.has(1)){
     console.log("1 is present");
 }else{
@@ -726,7 +740,7 @@ if(openSet.has(1)){
 }  
 
 for(let item of openSet){
-    console.log(item); // output --> [1,2,3,4,5,6,7]
+    console.log(item); // output --> 1 2 3 4 5 6 7
 }
 
 let jaka = [1,2,3,3,4,4,5,6,7,7,8,9,9,9,10];
@@ -867,7 +881,7 @@ jkflipFlopTpoint.apply(okbaba3,["jarman","local"]); // pass the list insted of n
 // output --> hello friends i am vishant bhavsar jarman local
 
 let chok = jkflipFlopTpoint.bind(okbaba3,"jarman","local");
-chok(); // it return the function 
+chok(); 
 // putput --> hello friends i am vishant bhavsar jarman local
 
  // note ------------> arrow function have not their own [this}-------------------------------------------------------------------
@@ -923,3 +937,5 @@ console.log(objKaka2.wpName); // output --> solanki
 
 console.log(objKaka2.__proto__); // output --> {fbName: 'devarsh', wpName: 'solanki'}
 
+
+// ------------------------------------------------------------------------------------------------------------------------------

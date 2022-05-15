@@ -1,0 +1,75 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="./index1.css">
+    <script src="./ok.js" defer></script>
+    <title>Document</title>
+</head>
+<body>
+    <header class="header">
+        <nav class="nav container">
+            <h1>OKWEB</h1>
+            <ul class="nav_items">
+                <li><a href="">Home</a></li>
+                <li><a href="">Todo</a></li>
+                <li><a href="">Sign Up</a></li>
+            </ul>
+        </nav>
+        <div class="headline">
+            <h1>Manage your website</h1>
+            <button class="btn btn_headline">Learn More</button>
+        </div>
+    </header>
+    <section class="section_todo container">
+        <h2>Your plan for today ?</h2>
+        <!-- Form-Todo -->
+        <form action="" class="form_todo">
+            <input type="text" name="" id="" placeholder="Add Todo">
+            <input type="submit" value="Add Todo" class="btn btn_todo">
+        </form>
+
+        <ul class="todo_list">
+            <li>
+                <span class="text"> Hello friends!!! </span>
+                <div class="todo_buttons">
+                    <button class="todo_btn Done">Done</button>
+                    <button class="todo_btn Remove">Remove</button>
+                </div>
+            </li>
+        </ul>
+    </section>
+    <section class="section_signup container">
+        <h2>Sign Up</h2>
+        <form action="" class="signupForm">
+            <div class="form_group">
+                <label for="username">UserName <span>*</span></label>
+                <input type="text" id="username" value="" placeholder="username" required>
+            </div>
+            <div class="form_group">
+                <label for="password">Password <span>*</span></label>
+                <input type="text" id="password" value="" placeholder="password" required>
+            </div>
+            <div class="form_group">
+                <label for="confirmpassword">Confirm pasword <span>*</span></label>
+                <input type="text" id="confirmpassword" value="" placeholder="confirmpassword" required>
+            </div>
+            <div class="form_group">
+                <label for="phone">Phone <span>*</span></label>
+                <input type="text" id="phone" value="" placeholder="phone" required>
+            </div>
+            <div class="form_group">
+                <label for="email">Email <span>*</span></label>
+                <input type="email" id="email" value="" placeholder="email" required>
+            </div>
+            <div class="form_group">
+                <label for="about">About Yourself</label>
+                <textarea name="about" id="about" cols="30" rows="10" placeholder="Type here..."></textarea>
+            </div>
+            <button type="submit" class="btn btn_signup">Submit</button>
+        </form>
+    </section>
+</body>
+</html>
